@@ -104,6 +104,5 @@ ____
 ![alt](URL title)
 ```
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
-
-![foryou]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
+![foryou](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
 
