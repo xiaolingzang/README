@@ -7,7 +7,9 @@
 崇信“以人为书”的观念，喜欢结交各路英雄好汉，我认为闲聊或争辩都是增广见闻的最快途径。  
 |我在这里|
 |-------|
-|[github][githubWeb]|
+|[github][githubWeb]
+
+
 
 # 专业技能
 * python/R/Scala/Spark
@@ -28,4 +30,5 @@
 * 看电影
 * 旅游
 
+*******************
 [githubWeb](https://github.com/xiaolingzang)
