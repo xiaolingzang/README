@@ -106,3 +106,65 @@ ____
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
 ![foryou](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
 
+链接
+### 链接外部URL
+|#|语法|效果|
+|---|----|-----|
+|1|`[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")`|[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")|
+|2|`[我的知乎][zhihu] `|[我的知乎][zhihu] |
+
+语法2由两部分组成：  
+第一部分使用两个中括号，[ ]里的标识符（本例中zhihu），可以是数字，字母等的组合，标识符上下对应就行了（**姑且称之为URL标识符**）
+第二部分标记实际URL。
+
+### 链接本库中的URL
+|语法|效果|
+|----|-----|
+|`[我的简介](/example/profile.md)`|[我的简介](/example/profile.md)|
+|`[Book](./Book)`|[Book](/Book)|
+
+
+### 图片链接
+给图片加链接的本质是混合图片显示语法和普通的链接语法。普通的链接中[ ]内部是链接要显示的文本，而图片链接[ ]里面则是要显示的图片。  
+直接混合两种语法当然可以，但是十分啰嗦，为此我们可以使用URL标识符的形式。
+
+|#|语法|效果|
+|---|----|:---:|
+|1|`[![weibo-logo]](http://weibo.com/linpiaochen)`|[![weibo-logo]](http://weibo.com/linpiaochen)|
+|2|`[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]`|[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]|
+|3|`[![csdn-logo]][csdn]`|[![csdn-logo]][csdn]|
+
+
+##列表
+### 无序列表
+* 昵称：lingling
+- 别名：Markov
+* 英文名：Jelly
+
+### 多级无序列表
+* 编程语言
+    * 脚本语言
+        * python
+	
+### 有序列表
+面向对象的三个基本特性：  
+1. 封装
+2. 继承
+3. 多态
+
+### 有序列表自动排序
+面向对象的七大原则：  
+1. 开闭原则
+2. 里氏转换原则
+* 依赖倒转原则
+* 接口隔离原则
+* 组合/聚合复用原则
+* “迪米特”法则
+
+### 多级有序列表
+1. 这是一级有序列表
+    1. 这是二级有序列表
+        1. 这是三级有序列表
+	
+
+
